@@ -1,4 +1,13 @@
 {
+  "name": "mern_pract1",
+  "version": "1.0.0",
+  "description": "https://reidrym.github.io/DAY-ONE-Fitness-App/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\""
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "dotenv": "^16.3.1",
@@ -10,20 +19,12 @@
     "gh-pages": "^5.0.0",
     "save-dev": "^0.0.1-security"
   },
-  "name": "mern_pract1",
-  "description": "https://reidrym.github.io/DAY-ONE-Fitness-App/",
-  "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {},
-  "scripts": {
-    "start": "node server/server.js",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm run build",
-    "heroku-postbuild": "cd client && npm install && npm run build",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
+  }
 }

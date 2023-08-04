@@ -18,5 +18,9 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.4",
     "validator": "^13.9.0"
+  },
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
   }
 }
