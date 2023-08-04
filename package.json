@@ -3,5 +3,21 @@
     "date-fns": "^2.30.0",
     "gh-pages": "^5.0.0",
     "save-dev": "^0.0.1-security"
-  }
+  },
+  "name": "mern_pract1",
+  "description": "https://reidrym.github.io/DAY-ONE-Fitness-App/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
