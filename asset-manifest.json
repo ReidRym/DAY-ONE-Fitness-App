@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MEARNING_it/static/css/main.694abe21.css",
+    "main.js": "/MEARNING_it/static/js/main.7a0c6431.js",
+    "static/media/gym4.jpg": "/MEARNING_it/static/media/gym4.459cad7621d52dd80df3.jpg",
+    "index.html": "/MEARNING_it/index.html",
+    "main.694abe21.css.map": "/MEARNING_it/static/css/main.694abe21.css.map",
+    "main.7a0c6431.js.map": "/MEARNING_it/static/js/main.7a0c6431.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.694abe21.css",
+    "static/js/main.7a0c6431.js"
+  ]
+}
