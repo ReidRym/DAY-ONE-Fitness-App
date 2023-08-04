@@ -1,5 +1,5 @@
 # One Day or Day One?
-https://reidrym.github.io/MEARNING_it/
+https://reidrym.github.io/DAY-ONE-Fitness-App/
 
 Add heroku link here:
 
