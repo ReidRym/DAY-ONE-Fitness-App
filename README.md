@@ -1,5 +1,5 @@
 # One Day or Day One?
-Add browser link here:
+https://reidrym.github.io/MEARNING_it/
 
 Add heroku link here:
 
