@@ -3,16 +3,24 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+--primary: #1aac83;
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+  font-size: larger;
+ background: #f1f1f1;
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background:black
+  
+
+
+ 
+  
 }
 header .container {
   max-width: 1400px;
@@ -23,11 +31,17 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: whitesmoke;
+  text-shadow: black 2px 2px 2px;
   text-decoration: none;
 }
 .pages{
-  max-width: 1400px;
+  background-image: url('../images/gym4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-width: 2000px;
   padding: 20px;
   margin: 0 auto;
 }
@@ -39,22 +53,25 @@ header a {
   gap: 100px;
 }
 .workout-details {
-  background: #fff;
+  background:black;
+  
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;
   position: relative;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 2px 2px 5px white;
 }
 .workout-details h4 {
   margin: 0 0 10px 0;
-  font-size: 1.2em;
-  color: var(--primary);
+  font-size: 1.6em;
+  text-shadow: white 1px 1px 1px;
+  text-transform: uppercase;
+  color: blue;
 }
 .workout-details p {
   margin: 0;
-  font-size: 0.9em;
-  color: #555;
+  font-size: 1.3em;
+  color:whitesmoke;
 }
 .workout-details span {
   position: absolute;
@@ -123,9 +140,9 @@ nav button {
 
 /* auth forms */
 form.signup, form.login {
-  max-width: 400px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  background: #fff;
+  background: lightslategrey;
   border-radius: 4px;
 }
